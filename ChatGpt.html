@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./gemini.css">
+</head>
+<body>
+    <header class="header">
+     <h2 class="title">Hello, there</h2>
+     <h4 class="subtitle">How can I helo you today ?</h4>
+
+     <ul class="information-list">
+        <li class="lists">
+            <h4 class="text">Help me! plan a game night with my 5 best friend for under $100</h4>
+            <i class="fa-solid fa-pen-ruler"></i>
+        </li>
+        <li class="lists">
+            <h4 class="text">What are the best tips to improve my public speaking skiills</h4>
+            <i class="fa-regular fa-lightbulb"></i>
+        </li>
+        <li class="lists">
+            <h4 class="text">Can you help me to find the latest news on web development</h4>
+            <i class="fa-regular fa-compass"></i>
+        </li>
+        <li class="lists">
+            <h4 class="text">Write javascript code to sum all the elements in the array</h4>
+            <i class="fa-solid fa-code"></i>
+        </li>
+     </ul>
+    </header>
+    <div class="user-chat-application">
+       
+    </div>
+    <div class="chat-box">
+        <form action="#" class="typingform">
+            <div class="user-input">
+                <input type="text" placeholder="Enter a prompt here" required class="userprompt">
+                <button class="icon"><i class="fa-regular fa-paper-plane"></i></button>
+            </div>
+            <div class="action-buttons">
+                <span id="Light-Mode" class="icon"><i id="icon" class="fa-regular fa-sun"></i></span>
+                <span id="Deleting-items" class="icon"><i id="icon" class="fa-regular fa-trash-can"></i></span>
+            </div>
+        </form>
+        <p class="para-text">Gemini may display inaccurate info, including about people, so double check the responses</p>
+    </div>
+<script src="./gemini.js"></script>    
+</body>
+</html>
